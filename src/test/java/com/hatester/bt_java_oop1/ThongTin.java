@@ -1,0 +1,8 @@
+package com.hatester.bt_java_oop1;
+
+public class ThongTin {
+    public static void main(String[] args) {
+        NhanVien nv1 = new NhanVien("Tran Thu Ha", 27, "Nu", "Ha Noi", "0965994307");
+        nv1.getInfor();
+    }
+}
