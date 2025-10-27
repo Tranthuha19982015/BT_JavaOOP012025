@@ -1,11 +1,14 @@
 package com.hatester.bt_java_oop2.person;
 
 public class Person {
-    private String name;
-    private int age;
-    private String gender;
-    private String address;
-    private String phone;
+    public String name;
+    public int age;
+    public String gender;
+    String address;
+    String phone;
+
+    public Person() {
+    }
 
     public Person(String name, int age, String gender, String address, String phone) {
         this.name = name;
