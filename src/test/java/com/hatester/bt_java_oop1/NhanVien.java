@@ -1,11 +1,14 @@
 package com.hatester.bt_java_oop1;
 
 public class NhanVien {
-    String hoTen;
-    int tuoi;
-    String gioiTinh;
-    String diaChi;
-    String soDienThoai;
+    private String hoTen;
+    private int tuoi;
+    private String gioiTinh;
+    private String diaChi;
+    private String soDienThoai;
+
+    public NhanVien() {
+    }
 
     public NhanVien(String hoTen, int tuoi, String gioiTinh, String diaChi, String soDienThoai) {
         this.hoTen = hoTen;
